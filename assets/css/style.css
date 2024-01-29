@@ -84,7 +84,7 @@ select { -webkit-appearance:none; -moz-appearance:none; appearance:none; backgro
 
 iframe { border:0; width:100%; }
 
-a { color:#555555; text-decoration:none; -ms-transition:all 0.5s ease-in-out; -webkit-transition:all 0.5s ease-in-out; transition:all 0.5s ease-in-out; }
+a { color:#ffffff; text-decoration:none; -ms-transition:all 0.5s ease-in-out; -webkit-transition:all 0.5s ease-in-out; transition:all 0.5s ease-in-out; }
 a:focus { outline:thin dotted; }
 a:active, a:hover { color:#000; outline:0; }
 a:hover, a:focus { opacity:0.8; }
@@ -758,7 +758,7 @@ a.quick-view { margin-bottom:5px !important; }
 .product-details-img:before, .product-details-img:after { content:''; clear:both; display:block; } 
 .product-details-img .product-thumb { display:inline-block; padding:0; width:12.5%; margin:0; float:left; padding-right:5px; }
 .product-details-img .product-thumb-1 { display:block; padding:0; width:100%; margin:0; float:left; padding-right:0; }
-.product-details-img .product-zoom-right { display:inline-block; position:relative; width:87%; float:left; }
+.product-details-img .product-zoom-right { display:inline-block; position:relative; width: 100%; float:left; }
 .product-thumb .product-dec-slider-2 a { cursor:pointer; }
 .product-details-img .product-thumb .slick-arrow { top:auto; background:#fff; border-radius:3px; padding:0 5px; opacity:0; -ms-transition:all 0.5s ease-in-out; -webkit-transition:all 0.5s ease-in-out; transition:all 0.5s ease-in-out; }
 .product-details-img:hover .product-thumb .slick-arrow { opacity:1; }
@@ -851,7 +851,7 @@ table { margin-bottom:15px; width:100%; border-collapse:collapse; border-spacing
 .wrapQtyBtn { float:left; }
 .qtyField { display:table; margin:0 auto; }
 .qtyField .qty { width:40px; }
-.qtyField .qtyBtn, .qtyField .qty { padding:10px 6px; width:30px; height:42px; border-radius:0; float:left; }
+.qtyField .qtyBtn, .qtyField .qty { padding:10px 6px; width:30px; height:42px; border-radius:0; }
 .qtyField a { background-color:#eee; color:#000; }
 .qtyField a .fa { font-size:12px; line-height:21px; }
 .qtyField > a, .qtyField > span, .qtyField input { display:table-cell; line-height:normal; text-align:center; padding:3px 6px; border:1px solid #f5f5f5; }
@@ -1159,7 +1159,7 @@ input.checkbox { height:auto; vertical-align:middle; padding:0; box-shadow:none;
 #cartCheckout { width:100%; padding:15px; }
 .cart-variant1 .cart .cart__price-wrapper{ text-align:center; }
 .cart-variant1 .cart table { border:1px solid #f2f2f2; }
-.cart-variant1 .cart table td { border:1px solid #f2f2f2; }
+.cart-variant1 .cart table td { border:1px solid #d8d1d1; }
 .cart-variant1 .cart th.text-right,
 .cart-variant1 .cart .text-right.cart-price { text-align:center !important; }
 .cart__meta-text { color:#a2a2a2; font-size:12px; }
@@ -1662,3 +1662,17 @@ body.home15-funiture-template { font-size:14px; }
 
 .blur-up.lazyloaded { -webkit-filter:blur(0); filter:blur(0); }
 .blur-up { -webkit-filter:blur(5px); filter:blur(5px); transition:filter 400ms, -webkit-filter 400ms; -webkit-transition:filter 400ms, -webkit-filter 400ms; }
+
+
+
+/* .histobel {
+  width: 100%;
+  border-collapse: collapse;
+  overflow-x: auto; Membuat tabel horizontal scrollable saat diresponsif */
+/* } */
+
+/* .histobel th, .histobel td {
+  padding: 8px;
+  text-align: center;
+  border: 1px solid rgb(182, 176, 176);
+} */
